@@ -435,3 +435,19 @@ body.has-sticky .adv-fab{bottom:84px}
 .adv-form input:focus{outline:none}
 .adv-form button{width:52px;font-size:1.2rem}
 .adv-human{display:block;text-align:center;font-size:.78rem;padding:8px;border-top:1px solid var(--line);color:var(--muted)}
+
+/* ---------- Fond dégradé noir → blanc (gauche → droite) ---------- */
+body{background:linear-gradient(90deg,#000 0%,#fff 100%) fixed;background-color:#000}
+.hero,.trust,.bud,.cat-head{background:transparent}
+.trust,.bud{border-color:rgba(128,128,128,.35)}
+/* le texte posé directement sur le fond s'inverse tout seul : blanc sur le noir, noir sur le blanc */
+main :is(h1,h2,.lead,.crumbs,.hero-facts,.hero-envies>span,.sec-head .link,#bCount,.bud-val,.rev-note,.faq summary,.faq p,.card .meta,.filters h4,.filters label,.filters .more,#count,.toolbar label,.active button,.info>div>.mai,.info .cc,.price,.ship-est,.pay,.perks,.acc summary,.acc .rte,.trust p,.trust svg,.marq a,.qty,.empty,.chip:not([aria-pressed="true"])){color:#fff;mix-blend-mode:difference}
+main :is(.chip:not([aria-pressed="true"]),.active button){border-color:#fff}
+main .price s{color:inherit;opacity:.6}
+/* blocs qui gardent leur propre fond : pas d'inversion */
+main :is(.dark,.gift,.rev,.rev-score,.reveal,.fix-item,.note-box,.sizes) :is(h1,h2,h3,p,.lead,.link,.card .meta,.chip,span,b,small){mix-blend-mode:normal}
+main .dark :is(h2,.lead,.card .meta){color:#F3EDE2}
+main :is(.rev,.rev-score,.reveal,.fix-item,.note-box) :is(h2,h3,p,b,small,span){color:var(--ink)}
+main :is(.rev,.rev-score) small{color:var(--muted)}
+main .gift :is(h2,p){color:#F6EEE6}
+.trust svg{stroke:#fff}
