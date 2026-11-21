@@ -443,3 +443,4 @@ body{background:linear-gradient(90deg,#9E958A 0%,#C9C0B3 40%,#F8F5EF 100%) fixed
 main :is(.lead,.crumbs,.hero-facts span,.bud-val span,.rev-note,.faq p,.card .cc,#count,.toolbar label,.filters em,.info .cc,.pay){color:#3E3832}
 main :is(.chip:not([aria-pressed="true"]),.active button){border-color:rgba(35,31,27,.35)}
 .hd{background:rgba(248,245,239,.9)}
+main :is(#bCount,.eyebrow){color:#3E3832}main .eyebrow{color:#7A5F2E}
