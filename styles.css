@@ -455,3 +455,7 @@ main :is(.rev,.rev-score,.reveal,.fix-item,.note-box) :is(h2,h3,p,b,small,span){
 main :is(.rev,.rev-score) small{color:var(--muted)}
 main .gift :is(h2,p){color:#F6EEE6}
 main .filters.open :is(h4,label,.more){color:var(--ink)}
+.hero-ctas .btn-line{border-color:#F3EDE2;color:#F3EDE2}
+.hero-ctas .btn-line:hover{background:#F3EDE2;color:var(--ink)}
+.hero-ctas .btn-dark{background:#F3EDE2;color:var(--ink)}
+.hero-copy .hero-facts{border-color:rgba(255,255,255,.25)}
