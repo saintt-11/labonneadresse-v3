@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>La Bonne Adresse Paris – Parfums de niche et petits prix</title>
+<meta name="description" content="Haute parfumerie, maisons orientales et signatures à petit prix. Livraison offerte dès 50 €, expédition sous 24 à 48 h.">
+<link rel="icon" href="https://labonneadresseparis.fr/cdn/shop/files/lba-logo-transparent.png?width=64">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="visually-hidden" href="#app">Aller au contenu</a>
+
+<div class="ann" role="region" aria-label="Offre en cours">
+  <div class="wrap">
+    <span><b>−15 %</b> sur tout le site avec le code <button type="button" data-copy="BLACK15">BLACK15</button></span>
+    <span class="ann-2">Black Friday · jusqu'au 27 novembre à 23 h 59</span>
+  </div>
+</div>
+
+<header class="hd">
+  <div class="hd-row">
+    <button type="button" class="ic hd-burger" id="burger" aria-label="Ouvrir le menu" aria-controls="menuDrawer" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <a class="hd-logo" href="#/" aria-label="La Bonne Adresse Paris, accueil">
+      <img src="https://labonneadresseparis.fr/cdn/shop/files/lba-logo-transparent.png?width=240" alt="La Bonne Adresse Paris" width="80" height="58">
+    </a>
+    <nav class="hd-nav" aria-label="Navigation principale"><ul id="nav"></ul></nav>
+    <div class="hd-tools">
+      <button type="button" class="btn btn-gold hd-cta" data-adv-open>Trouver mon parfum</button>
+      <a class="ic" href="#/catalogue?focus=1" aria-label="Rechercher"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></a>
+      <a class="ic hd-acc" href="https://labonneadresseparis.fr/account" aria-label="Mon compte"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></a>
+      <button type="button" class="ic" id="cartBtn" aria-label="Panier" aria-controls="cartDrawer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg><span class="n" id="cartN" data-z="1">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="menuDrawer" hidden>
+  <div class="drawer-bg" data-close></div>
+  <div class="drawer-in" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="drawer-top">
+      <img src="https://labonneadresseparis.fr/cdn/shop/files/lba-logo-transparent.png?width=160" alt="" width="60" height="44" style="height:44px;width:auto">
+      <button type="button" class="ic" data-close aria-label="Fermer le menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <button type="button" class="btn btn-gold" data-adv-open style="width:100%;margin-bottom:8px">Trouver mon parfum</button>
+    <ul id="navM"></ul>
+    <a class="m-link" href="https://labonneadresseparis.fr/account" style="color:var(--muted);font-size:.85rem">Mon compte</a>
+  </div>
+</div>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div>
+        <img class="ft-logo" src="https://labonneadresseparis.fr/cdn/shop/files/lba-logo-transparent.png?width=200" alt="La Bonne Adresse Paris" width="88" height="64">
+        <p style="max-width:34ch">Haute parfumerie, maisons orientales et signatures à petit prix, choisies une par une à Paris.</p>
+        <div class="ft-pay"><span>CB</span><span>Visa</span><span>Mastercard</span><span>PayPal</span><span>Apple Pay</span><span>Google Pay</span><span>Klarna</span></div>
+      </div>
+      <div><h4>Par envie</h4><ul id="ftFam"></ul></div>
+      <div><h4>Boutique</h4><ul>
+        <li><a href="#/catalogue?sort=new">Nouveautés</a></li>
+        <li><a href="#/collection/meilleures-ventes">Meilleures ventes</a></li>
+        <li><a href="#/collection/parfums-de-niche">Haute parfumerie</a></li>
+        <li><a href="#/collection/fixateurs-de-parfum">Fixateurs</a></li>
+        <li><a href="https://labonneadresseparis.fr/products/carte-cadeau-la-bonne-adresse-paris">Carte cadeau</a></li>
+      </ul></div>
+      <div><h4>Aide</h4><ul>
+        <li><a href="#faq">Questions fréquentes</a></li>
+        <li><a href="https://labonneadresseparis.fr/pages/contact">Contact</a></li>
+        <li><a href="https://labonneadresseparis.fr/policies/shipping-policy">Livraison</a></li>
+        <li><a href="https://labonneadresseparis.fr/policies/refund-policy">Retours sous 14 jours</a></li>
+        <li><a href="https://labonneadresseparis.fr/policies/legal-notice">Mentions légales</a></li>
+      </ul></div>
+    </div>
+    <div class="ft-bot"><span>© 2026 La Bonne Adresse Paris</span><span>Paiement sécurisé · Expédition sous 24 à 48 h</span></div>
+  </div>
+</footer>
+
+<div class="drawer" id="cartDrawer" hidden>
+  <div class="drawer-bg" data-close></div>
+  <div class="drawer-in r cart-in" role="dialog" aria-modal="true" aria-labelledby="cartTitle" id="cartPanel"></div>
+</div>
+
+<div class="bf" id="bf" hidden role="dialog" aria-labelledby="bfTitle">
+  <button type="button" class="x" id="bfX" aria-label="Fermer">×</button>
+  <span class="eyebrow" style="color:#E2C48C;margin:0">Black Friday</span>
+  <b id="bfTitle">−15 % sur tout le site</b>
+  <p>Jusqu'au 27 novembre à 23 h 59. Le code s'applique tout seul à la commande.</p>
+  <code>BLACK15</code>
+</div>
+
+<button type="button" class="adv-fab" id="advFab" aria-controls="adv" aria-expanded="false"><i aria-hidden="true"></i><span>Un conseil ?</span></button>
+<div class="adv" id="adv" role="dialog" aria-labelledby="advTitle" hidden>
+  <div class="adv-top">
+    <span class="av" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="9" y="2.5" width="6" height="3.5"/><path d="M10.5 6v2.2M13.5 6v2.2"/><rect x="5.5" y="8.2" width="13" height="13.3" rx="1.5"/><path d="M8.5 13.5h7"/></svg></span>
+    <div><b id="advTitle">Votre conseillère</b><small>La Bonne Adresse · réponse immédiate</small></div>
+    <button type="button" class="x" id="advX" aria-label="Fermer le conseiller">×</button>
+  </div>
+  <div class="adv-log" id="advLog" aria-live="polite"></div>
+  <div class="adv-choices" id="advChoices"></div>
+  <form class="adv-form" id="advForm" autocomplete="off">
+    <label class="visually-hidden" for="advIn">Décrivez ce que vous cherchez</label>
+    <input id="advIn" type="text" maxlength="120" placeholder="Ex : vanille, oud, moins de 50 €…">
+    <button type="submit" aria-label="Envoyer">→</button>
+  </form>
+  <a class="adv-human" href="https://wa.me/33620641083" target="_blank" rel="noopener">Parler à la boutique sur WhatsApp</a>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="familles.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

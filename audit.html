@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Audit des deux sites – La Bonne Adresse Paris</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500&display=swap">
+<style>
+:root{--ivory:#F8F5EF;--ivory-2:#F0EBE1;--ink:#231F1B;--muted:#6E655B;--line:#E2DAcd;--gold:#B8975A;--plum:#34242A;--ok:#4F6B4A;--ko:#9B3B2E}
+*{box-sizing:border-box}body{margin:0;background:var(--ivory);color:var(--ink);font:300 16px/1.65 Jost,system-ui,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+h1,h2,h3{font-family:"Cormorant Garamond",serif;font-weight:500;line-height:1.1;margin:0}
+h1{font-size:clamp(2.2rem,6vw,3.6rem)}h2{font-size:clamp(1.7rem,4vw,2.4rem);margin-bottom:18px}h3{font-size:1.35rem;margin-bottom:8px}
+header{padding:56px 0 36px;border-bottom:1px solid var(--line)}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;color:var(--gold);font-weight:500;margin:0 0 12px}
+.lead{color:var(--muted);max-width:62ch;margin:14px 0 0;font-size:1.05rem}
+section{padding:48px 0;border-bottom:1px solid var(--line)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{background:#fff;border:1px solid var(--line);border-radius:6px;padding:22px}
+.box ul{margin:0;padding-left:18px}.box li{margin:6px 0}
+.ok h3{color:var(--ok)}.ko h3{color:var(--ko)}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);font-size:.93rem}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:500;background:var(--ivory-2)}
+td:first-child{font-weight:400;width:24%}
+.tag{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:20px;background:var(--ivory-2);margin-right:4px;white-space:nowrap}
+.tag.c{background:#EFE6D4}.tag.n{background:#E3E9DE}.tag.v{background:var(--plum);color:#F6EEE6}
+.scroll{overflow-x:auto}
+.cta{display:inline-flex;align-items:center;min-height:48px;padding:0 26px;background:var(--ink);color:#fff;text-decoration:none;border-radius:2px;margin-top:22px}
+footer{padding:36px 0 60px;color:var(--muted);font-size:.85rem}
+@media (max-width:760px){.cols{grid-template-columns:1fr}td:first-child{width:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<p class="eyebrow">Audit · 21 novembre 2026</p>
+<h1>Le site actuel, la maquette,<br>et la version 3</h1>
+<p class="lead">Nous avons comparé page par page le site en ligne de La Bonne Adresse Paris et la maquette proposée. La version 3 garde ce que chacun fait de mieux et corrige ce qui gêne l'achat.</p>
+<a class="cta" href="./">Voir la version 3</a>
+</div></header>
+
+<section><div class="wrap">
+<h2>1. Le site actuel (thème « V9 Black Friday »)</h2>
+<div class="cols">
+<div class="box ok"><h3>Ce qui marche</h3><ul>
+<li>Une vraie identité : Cormorant Garamond, fond ivoire, or, bandeau prune. Élégant et cohérent.</li>
+<li>Une photo d'accueil réelle et forte : « Le parfum parle pour vous. »</li>
+<li>Des preuves de confiance : 4,6/5 sur 111 avis TikTok Shop, avis eBay, livraison offerte dès 50 €, retours 14 jours, WhatsApp.</li>
+<li>Fiche produit très complète : familles olfactives, réduction affichée, date de livraison estimée, moyens de paiement, accordéons, barre d'achat fixe.</li>
+<li>Vente additionnelle intelligente : les fixateurs Secret Musc proposés avec les parfums.</li>
+<li>Une FAQ utile (testeur, retrait, délais) et un module « Trouver mon parfum ».</li>
+</ul></div>
+<div class="box ko"><h3>Ce qui freine</h3><ul>
+<li>Une fenêtre Black Friday bloque la page dès l'arrivée, avant même d'avoir vu un produit.</li>
+<li>Les filtres du catalogue sont cachés derrière « Filtrer et trier », et on ne peut pas filtrer par famille olfactive.</li>
+<li>Les noms complets « Nom - Maison - Concentration » encombrent les cartes produits.</li>
+<li>La section Meilleures ventes est très haute (plus de 1 400 px sur ordinateur, 3 colonnes).</li>
+<li>Pas de choix par budget, alors que c'est la question n°1 des clients d'une parfumerie à petits prix.</li>
+<li>Un message « Votre licence n'est pas activée » est présent dans le code du thème : la licence du thème Story est à régulariser.</li>
+</ul></div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>2. La maquette (thème « la-bonne-adresse-theme-v1-1 »)</h2>
+<div class="cols">
+<div class="box ok"><h3>Ce qui marche</h3><ul>
+<li>« Votre budget, notre sélection » : un curseur de 20 à 300 € et la sélection se met à jour tout de suite.</li>
+<li>« Demander à être surpris » : un parfum tiré au hasard dans le budget, avec une explication.</li>
+<li>Une conseillère parfum disponible partout : quatre questions ou du texte libre, trois flacons disponibles proposés.</li>
+<li>Un vrai catalogue : filtres visibles par famille, maison, budget, avec le nombre de résultats à chaque option.</li>
+<li>Des pastilles rapides par envie (gourmands, boisés, floraux…).</li>
+<li>Sur la fiche, des parfums de la même famille à un prix proche, et le format testeur expliqué clairement.</li>
+</ul></div>
+<div class="box ko"><h3>Ce qui freine</h3><ul>
+<li>Des flacons dessinés pour illustrer les familles, qui tranchent avec les vraies photos produits.</li>
+<li>Pas d'avis clients, pas de bande de confiance, pas de FAQ : on perd les preuves que le site actuel affiche.</li>
+<li>Pas de fixateurs proposés en complément, ni de date de livraison estimée.</li>
+</ul></div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>3. Ce que garde la version 3</h2>
+<div class="scroll"><table>
+<thead><tr><th>Élément</th><th>Origine</th><th>Dans la version 3</th></tr></thead>
+<tbody>
+<tr><td>Identité visuelle</td><td><span class="tag c">Site actuel</span></td><td>Cormorant Garamond et Jost, ivoire, or, prune. Les codes de la marque sont conservés.</td></tr>
+<tr><td>Accueil</td><td><span class="tag c">Site actuel</span></td><td>La photo réelle et le titre « Le parfum parle pour vous. », avec deux boutons clairs et des raccourcis par envie.</td></tr>
+<tr><td>Confiance</td><td><span class="tag c">Site actuel</span></td><td>Bande juste sous l'accueil : livraison offerte dès 50 €, retours 14 jours, paiement sécurisé, 4,6/5, WhatsApp.</td></tr>
+<tr><td>Choisir par envie</td><td><span class="tag n">Maquette</span> <span class="tag c">Site actuel</span></td><td>Six familles en grandes vignettes, illustrées par une vraie photo de parfum de la famille (plus de dessins).</td></tr>
+<tr><td>Budget et surprise</td><td><span class="tag n">Maquette</span></td><td>Curseur 20–300 €, familles, sélection en direct et bouton « Demander à être surpris ».</td></tr>
+<tr><td>Meilleures ventes</td><td><span class="tag c">Site actuel</span></td><td>En 4 colonnes, deux fois moins haut.</td></tr>
+<tr><td>Haute parfumerie</td><td><span class="tag c">Site actuel</span></td><td>Section sombre pour la sélection de niche.</td></tr>
+<tr><td>Fixateurs</td><td><span class="tag c">Site actuel</span></td><td>Kiss et Sugar à ajouter en un clic, sur l'accueil et sur chaque fiche.</td></tr>
+<tr><td>Avis clients</td><td><span class="tag c">Site actuel</span></td><td>Les vrais avis TikTok Shop et eBay, avec la note 4,6/5 expliquée honnêtement.</td></tr>
+<tr><td>Catalogue</td><td><span class="tag n">Maquette</span></td><td>Filtres visibles : famille, maison, budget, concentration, format, disponible. Recherche, tri, compteurs.</td></tr>
+<tr><td>Noms des produits</td><td><span class="tag v">Nouveau</span></td><td>Nom, maison et concentration séparés et hiérarchisés, au lieu du titre complet.</td></tr>
+<tr><td>Fiche produit</td><td><span class="tag c">Site actuel</span> <span class="tag n">Maquette</span></td><td>Galerie, familles, réduction, livraison estimée, paiements, accordéons, barre fixe sur téléphone, testeur expliqué, parfums proches.</td></tr>
+<tr><td>Conseillère</td><td><span class="tag n">Maquette</span></td><td>Disponible sur toutes les pages, avec un mode « idée cadeau » et un lien WhatsApp.</td></tr>
+<tr><td>Black Friday</td><td><span class="tag v">Nouveau</span></td><td>Plus de fenêtre bloquante : bandeau, petit encart discret après quelques secondes, et le code BLACK15 appliqué tout seul au paiement.</td></tr>
+<tr><td>Panier</td><td><span class="tag v">Nouveau</span></td><td>Panier latéral avec barre « plus que X € pour la livraison offerte », puis paiement sur la boutique Shopify.</td></tr>
+</tbody></table></div>
+</div></section>
+
+<section><div class="wrap">
+<h2>4. Comment fonctionne la version 3</h2>
+<div class="box"><ul>
+<li>Le catalogue, les prix, les photos et le stock sont lus en direct dans la boutique Shopify. Rien n'est recopié : une modification dans Shopify apparaît sur le site.</li>
+<li>Le bouton « Commander » envoie le panier sur le vrai paiement de la boutique.</li>
+<li>C'est une démonstration indépendante : les thèmes Shopify de la boutique n'ont pas été modifiés. Si elle est validée, elle peut devenir le thème de la boutique.</li>
+<li>Les photos IA de l'accueil restent à remplacer par les futures photos de la boutique.</li>
+</ul></div>
+</div></section>
+
+<footer><div class="wrap">Audit réalisé pour La Bonne Adresse Paris · <a href="./">Voir la version 3</a></div></footer>
+</body>
+</html>
